@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f3;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #4e73df;
+  padding: 10px;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dashboard input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #1cc88a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button  :hover{
+  background-color: skyblue;
+}
+
+.favorite-btn{
+  background-color:orange;
+  display: flex;
+  flex-direction: column;
+  margin-left: 680px;
+  margin-top: 20px;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 100px;
+  background-color: skyblue;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+}
+
+.favorites {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.favorites .heading{
+  margin-left: 600px;
+  margin-right: 600px;
+}
+
+p{
+  color:#4e73df
+}
+
+
+@media (max-width: 600px) {
+  .dashboard input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .dashboard button {
+    width: 100%;
+  }
+}
