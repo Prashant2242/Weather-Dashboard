@@ -82,11 +82,11 @@ CORS errors can occur if OpenWeatherMap blocks requests from certain ports or or
 1.Write a city on input and press Get Weather button 
 ![Image](https://github.com/user-attachments/assets/3bbda5f0-75df-474d-b77d-e4fc904c6f80)
 
-2. After Getting the Weather of a city click on Favorities
-![Image](https://github.com/user-attachments/assets/18970b89-672b-4719-9111-613cc51822f9)
+2. After Getting the Weather of a city click on Add to favorite button
+![Image](https://github.com/user-attachments/assets/bca1453e-d5f7-4bb3-b3b2-287746875b96)
 
-3.Favorite Cities
-![Image](https://github.com/user-attachments/assets/bef6472b-0f9d-469d-963d-8af96bb3acdf)
+3.Favorities page
+![Image](https://github.com/user-attachments/assets/a2159099-c393-44dc-b207-a73f3a0c1517)
 
 
 
